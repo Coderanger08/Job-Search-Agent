@@ -1,0 +1,47 @@
+# Core AI/LLM - Cost-effective options
+google-generativeai>=0.3.0  # Gemini API (primary LLM)
+transformers>=4.35.0        # Hugging Face models (free alternative)
+huggingface-hub>=0.19.0     # Access to free models
+ollama>=0.1.0               # Local models (free alternative)
+
+# RAG Framework
+langchain>=0.1.0
+langchain-google-genai>=0.0.5  # Gemini integration for LangChain
+
+# Web scraping and API handling
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+fake-useragent>=1.1.0
+playwright>=1.54.0  # Modern browser automation for JavaScript-heavy sites
+
+# User interface
+streamlit>=1.28.0
+streamlit-chat>=0.1.1
+plotly>=5.17.0  # For interactive charts in Streamlit
+
+# API Backend
+fastapi>=0.104.0
+uvicorn>=0.24.0
+requests>=2.31.0
+
+# Data handling and processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web search capabilities
+google-search-results>=2.4.0
+duckduckgo-search>=4.1.0
+beautifulsoup4>=4.12.0  # For HTML parsing in web search
+lxml>=4.9.0  # Better HTML parser for BeautifulSoup
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+typing-extensions>=4.8.0
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
