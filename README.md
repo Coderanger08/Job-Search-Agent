@@ -1,4 +1,4 @@
-# 🚀 Bangladesh Job Search Agent
+# Job Search Agent
 
 **AI-Powered Job Search with Real-time Data from Multiple Sources**
 
